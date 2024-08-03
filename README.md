@@ -4,11 +4,11 @@
 https://todo-fasthtml-production.up.railway.app
 
 ### Deployment from terminal: ###
-Installed Railway cli from documentation and watching a youtube video.
+Installed Railway cli from documentation and watching a youtube video.<br>
 Logged in:
-`railway login --browserless`
+`railway login --browserless` <br>
 after log in 
-`fh_railway_deploy <app-name>`
+`fh_railway_deploy <app-name>`<br>
 
 ### Things I learned or different tech I may have used: ###
 I used HTMX instead of HTTP requests
