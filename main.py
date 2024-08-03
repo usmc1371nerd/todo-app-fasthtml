@@ -7,7 +7,7 @@ def render(todo):
                hx_swap="outerHTML",target_id=tid )
     return Li(toggle, delete, todo.title + (' done' if todo.done else ''), id=tid)
 
-app, rt, todos, Todo = fast_app('todo.db',live=True, render=render, 
+app, rt, todos, Todo = fast_app('data/todos.db',live=False, render=render, 
                                 id=int, title=str, done=bool, pk='id')
 
 
